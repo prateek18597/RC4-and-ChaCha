@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b73dc55b-69c0-4984-a517-ca39f085fd85" name="Default Changelist" comment="" />
+    <list default="true" id="b73dc55b-69c0-4984-a517-ca39f085fd85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decrypted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encrypted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RC4/RC4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RC4/RC4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RC4/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RC4/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +32,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Q7JpjZXnTvkiJ5JZKzCy3Z5u0S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/Jar/lombok.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -47,8 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="RC4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Encryptor" />
       </list>
     </recent_temporary>
@@ -65,5 +94,19 @@
       <updated>1567115885367</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

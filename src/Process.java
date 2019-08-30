@@ -1,4 +1,4 @@
-public class Type {
+public class Process {
     private String key;
     private String msg;
 
