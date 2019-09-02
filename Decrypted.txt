@@ -1,1 +1,1 @@
-Hello World, I am Pratik Parmar. I am working hn implejentation of RC4 and ChaCha algorithm
+The mysqldump command is used to create textfile “dump” of a database that can be managed by MySQL. These database dumps are simply text type files containing all the SQL commands needed to recreate the database from scratch. The process truly is quick and easy.

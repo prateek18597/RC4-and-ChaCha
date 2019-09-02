@@ -1,8 +1,3 @@
-import lombok.Data;
-
-import java.math.BigInteger;
-
-@Data
 public class RC4 {
 
     private String initialVector;
@@ -35,7 +30,7 @@ public class RC4 {
     public String pseudoRandomGenerator(){
         int i = 0, j = 0;
         String keyStream = "";
-        for(int k = 0; k<1000; k++ ){
+        for(int k = 0; k < 5000; k++ ){
             i = (i + 1) % 256;
             j = (j + initialVector.charAt(i)) % 256;
             initialVector = StringUtil.swap(initialVector, i, j);
@@ -47,8 +42,11 @@ public class RC4 {
     public String encrypt(String key, String msg){
         setKey(key);
         keyScheduling();
+        System.out.println("Key Scheduling completed");
         String keyStream = pseudoRandomGenerator();
+        System.out.println("Key Stream completed");
         String binMsg = StringUtil.binaryString(msg);
+        System.out.println(binMsg);
         int lenMsg = binMsg.length();
         int lenKeyStream = keyStream.length();
         String bitCipher = "";

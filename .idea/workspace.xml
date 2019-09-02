@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73dc55b-69c0-4984-a517-ca39f085fd85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decrypted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encrypted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Freq.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChaCha20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decrypted.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Decrypted.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encrypted.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Encrypted.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RC4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RC4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RC4/RC4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RC4/RC4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RC4/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RC4/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RC4/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RC4/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChaCha.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Decryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decryptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RC4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RC4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +50,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Jar/lombok.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Jar/commons-io-2.6/commons-io-2.6.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -60,7 +68,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="ChaCha20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChaCha20" />
+      <module name="RC4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Encryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encryptor" />
       <module name="RC4" />
@@ -78,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.ChaCha20" />
         <item itemvalue="Application.Encryptor" />
       </list>
     </recent_temporary>
@@ -100,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

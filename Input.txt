@@ -1,4 +1,1 @@
-bÐG5³öyå-é	º
-{íÕWíÁhCïHl¿árÌh<sÊÈcK½T
-d	M%"+
-ò/Ì>©ÉÄØ­+~þDTs)ÈÞ×*µ¬°ÖtmR#1à
+The mysqldump command is used to create textfile “dump” of a database that can be managed by MySQL. These database dumps are simply text type files containing all the SQL commands needed to recreate the database from scratch. The process truly is quick and easy.
